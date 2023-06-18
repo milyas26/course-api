@@ -1,0 +1,29 @@
+{
+  "test": {
+    "username": "root",
+    "password": "root",
+    "database": "course-app",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "logging": false
+  },
+  "development": {
+    "username": "root",
+    "password": "root",
+    "database": "course-app",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "dialectOptions": {
+      "socketPath": "/Applications/MAMP/tmp/mysql/mysql.sock"
+    },
+    "logging": false
+  },
+  "production": {
+    "username": "ilyas",
+    "password": "artfentoursuper12345",
+    "database": "course-app",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "logging": false
+  }
+}
